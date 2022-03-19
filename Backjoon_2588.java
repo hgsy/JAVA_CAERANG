@@ -3,7 +3,7 @@ import java.util.Scanner;
  * 1차 오답 : 일, 십, 백의 자리 변수 반대로 대입함.
  * 2차 정답.
  */
-public class Backjoon_2588_2 {
+public class Backjoon_2588 {
 
 	public static void main(String[] args) {
 		
