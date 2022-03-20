@@ -1,8 +1,5 @@
 import java.util.Scanner;
-/*
- * 1차 오답 : 0시에서 23시로 넘어가는 과정 고려안함.
- * 2차 정답.
- */
+
 public class Backjoon_2884_2 {
 
 	public static void main(String[] args) {
