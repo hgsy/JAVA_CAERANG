@@ -1,8 +1,4 @@
 import java.util.Scanner;
-/*
- * 1차 오답 : 23시 59분 59초가 넘어가면 0시로 변경되는 부분 고려안함.
- * 2차 정답.
- */
 
 public class Backjoon_2530 {
 
