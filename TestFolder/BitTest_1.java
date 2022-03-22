@@ -19,11 +19,11 @@ public class BitTest_1 {
 		}
 		
 		/* 기억 못할까봐 쓰는 진행 상황
-		 * 0 생략안하고 출력까진 완료함. 연산자 중 ~ 사용하지 않고 뒤집기위해 ^
+		 * 0 생략안하고 출력까진 완료함. 연산자 중 ~ 사용하지 않고 뒤집기위해
      		 * 비트 비교하여 서로 다르면 참이 나오는 ^ 사용하려 했으나 결과가 1 또는 0 이 아닌 3, 4 등이 나와서 일단 보류
 		 */
 		
 		System.out.println("\n----------------------------");
-		System.out.println(Integer.toBinaryString(reverse));
+		System.out.println("비교용 : " + Integer.toBinaryString(reverse));
 	}
 }
