@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Bit_reverse { 
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("정수를 입력하세요 : ");
+		int input = s.nextInt();
+		int reverse = ~input;
+		int mask = 1;
+		int result;
+		
+		System.out.println("입력된 정수 : " + input);
+		System.out.println("입력된 정수의 이진수 변환 : " + Integer.toBinaryString(input));
+		
+		System.out.print("이진수 출력");
+		
+		for(int i=31;i>=0;i--)	{
+			result = input >> i & mask;
+			System.out.printf("%d",result);
+		}
+		/*
+		 * 0 생략안하고 출력
+		 */
+		
+		System.out.println("\n--------------------------------");
+		System.out.println(Integer.toBinaryString(reverse));
+	}
+}
